@@ -113,4 +113,18 @@ Each ASIP instruction expands internally into a **multi-state micro-operation se
 
 ## 🚀 How to Run (Simulation)
 
-1. 📦 Open the project in your preferred
+1. 📦 Open the project in your preferred Verilog simulator
+2. 🧪 Run testbenches from `tb/`
+3. 🔍 Inspect signals in **GTKWave**
+4. ✅ Confirm correct execution using `start` → `finish` and handshake/FLAGS behavior
+
+---
+
+## 📌 Notes
+
+This design emphasizes **clarity, modularity, and structural hardware logic**, showcasing:
+- full instruction execution flow,
+- synchronized memory + I/O transactions,
+- and real integration of a domain-specific ASIP accelerator into a general-purpose CPU.
+
+---
